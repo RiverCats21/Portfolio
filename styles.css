@@ -93,3 +93,19 @@ footer {
   text-align: center;
   font-size: 0.85rem;
 }
+.article-links {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.article-links a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--dark-amaranth);
+  font-weight: 500;
+}
+
+.article-links a:hover {
+  text-decoration: underline;
+}
